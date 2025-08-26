@@ -1,0 +1,69 @@
+1.16
+- Fixed a lot of bugs and crashes
+
+1.13
+- The UI has been redesigned.
+- Added ability to save and load presets.
+- Added ability to use Round Shading at iteration 0 to make the chamfer look round without adding extra geometry.
+- Added a new Face Selection chamfering type.
+- The Material Id can be set a zero now so that the new faces inherit the Material ID of the old faces.
+- Fixed a bug when chamfering large n-gons with holes in them.
+- Fixed a bug that occurred when the cut tool was used on edges that were being chamfered by their edge weights.
+http://www.youtube.com/watch?v=jMgd7RrWgww
+
+1.12
+- Added a "Chamfer Corners" option
+- Added ability to chamfer vertex selections
+http://www.youtube.com/watch?v=IP2nYhOSPxo
+
+1.11 
+- Fixed a crash that happened when using "Quad Intersection" and a iterartion greater then 1 introduced in 1.10 
+
+1.10 
+- Added a "Push 2", a "Pinch" and a "Slide" option for controling the the edges created by the inset function
+- Improves the results of "Quad Intersections" and "Quad Ends" options
+- Added option to select the smoothing group of the faces created by the chamfer
+http://www.youtube.com/watch?v=qiFOX2B08aM
+
+1.09 
+- Added ability to inset the polygons created by the chamfer alowing for stylistic effects in combination with the push option
+http://www.youtube.com/watch?v=FAsfq2CbVrs
+
+1.08 
+- Added ability to push outwards or inwards the edges of the chamfer at iteration 1 or higher
+- Fixed some Chamfering by Edge Weights bugs
+http://www.youtube.com/watch?v=yJ9xM-oNJ4M
+
+1.07
+- Fixed a memory usage bug
+
+1.06 
+- Added ability to select between Min, Average and Max interpolation in Chamfer by Edge Weights mode
+- Fixed some bugs in Chamfer by Edge Weights mode
+http://www.youtube.com/watch?v=_ivz38h_BOY
+
+1.05 
+- Added a Quad Ends option to remove n-gons and the end of some chamfered edges
+- Added ability to assign a material id to the faces created by the chamfer
+- Added a Invert Open chamfer option to keep only the faces created by the chamfer
+http://www.youtube.com/watch?v=KBoujqQI0oM
+
+1.04 
+- Improved the Chamfer by Edge Weights option by allowing variable chamfers
+- Fixed a crash when open chamfering with turbosmooth on top
+http://www.youtube.com/watch?v=mD3tcG9JwRg
+     
+1.03 
+- Added a Chamfer by Edge Weights option
+http://www.youtube.com/watch?v=C0UYIrRERWI
+
+1.02 
+- Added a Quad Intersection option to remove n-gons and triangles at intersecting edges 
+http://www.youtube.com/watch?v=ZaVd6oFsZRs
+
+1.01 
+- Fixed a crash when chamfering around triangles or n-gons
+
+1.0 
+- Initial release 
+http://www.youtube.com/watch?v=pBoA5zmky2w
